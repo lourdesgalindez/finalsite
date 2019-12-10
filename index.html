@@ -62,11 +62,24 @@ It wasn’t until 1908 that Western scientists acknowledged its existence; Briti
 
 
 
-      <section class="hero2">
+           <section class="hero2">
               <div class="hero-inner">
 
                   <h2><i>I was hoping to get the hell out of my head.</i></h2>
-                  <a href="https://www.youtube.com/watch?v=aaOfFixoxP8" class="btn" style=background-color: #FF6347">Video Experience</a>
+                  <div id="light">
+  <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+  <video id="VisaChipCardVideo" width="600" controls>
+      <source src="ayavideo.mp4" type="video/mp4">
+      <!--Browser does not support <video> tag -->
+    </video>
+</div>
+
+<div id="fade" onClick="lightbox_close();"></div>
+
+<div>
+  <a href="#" onclick="lightbox_open();">Watch video</a>
+</div>
+
               </div>
           </section>
           <p>Ayahuasca emerged again in the early 1960s with the counterculture movement. Beat writers like William Burroughs, Allen Ginsberg, and Jack Kerouac all described their experiences with ayahuasca, most famously in Burroughs’s book The Yage Letters.
